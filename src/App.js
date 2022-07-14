@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
 import './App.scss';
-import Header from './components/header/Header';
+import Index from './pages/Index';
+
 const App = () => {
   return (
     <Fragment>
-      <Header></Header>
+      <Index></Index>
     </Fragment>
   );
 };

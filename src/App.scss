@@ -1,27 +1,12 @@
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-$color-grey-darK: #777;
-$color-white: #fff;
+@import './sass/abstracts/functions';
+@import './sass/abstracts/mixins';
+@import './sass/abstracts/variables';
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+@import './sass/base/animation';
+@import './sass/base/base';
+@import './sass/base/typography';
+@import './sass/base/utilities';
 
-html {
-  font-size: 62.5%;
-}
+@import './components/button';
 
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: $color-grey-darK;
-  padding: 3rem;
-  box-sizing: border-box;
-}
+@import './layout/header';
