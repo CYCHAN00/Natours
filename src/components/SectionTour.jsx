@@ -3,7 +3,7 @@ import Button from './Button';
 
 const SectionTour = () => {
   return (
-    <section className='section-tours'>
+    <section className='section-tours' id='section-tours'>
       <div className='u-center-text u-margin-bottom-big'>
         <h2 className='heading-secondary'>Most popular tours</h2>
       </div>
@@ -33,9 +33,9 @@ const SectionTour = () => {
                   <p className='card__price-only'>Only</p>
                   <p className='card__price-value'>$297</p>
                 </div>
-                <Button className='btn--white btn--animated' type='button'>
+                <a href='#popup' className='btn btn--white'>
                   Book now!
-                </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -65,9 +65,9 @@ const SectionTour = () => {
                   <p className='card__price-only'>Only</p>
                   <p className='card__price-value'>$497</p>
                 </div>
-                <Button className='btn--white btn--animated' type='button'>
+                <a href='#popup' className='btn btn--white'>
                   Book now!
-                </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ const SectionTour = () => {
                   <p className='card__price-only'>Only</p>
                   <p className='card__price-value'>$897</p>
                 </div>
-                <Button className='btn--white btn--animated' type='button'>
+                <a href='#popup' className='btn btn--white'>
                   Book now!
-                </Button>
+                </a>
               </div>
             </div>
           </div>
