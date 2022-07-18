@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Button from '../components/button/Button';
+import Button from '../components/Button';
 
 const Header = () => {
   return (

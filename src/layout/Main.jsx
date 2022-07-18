@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionAbout from '../components/SectionAbout';
 import SectionFeature from '../components/SectionFeature';
+import SectionStories from '../components/SectionStories';
 import SectionTour from '../components/SectionTour';
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
       <SectionAbout></SectionAbout>
       <SectionFeature></SectionFeature>
       <SectionTour></SectionTour>
+      <SectionStories></SectionStories>
     </main>
   );
 };
