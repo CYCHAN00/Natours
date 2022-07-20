@@ -17,10 +17,15 @@ const SectionStories = () => {
         <div className='story'>
           <figure className='story__shape'>
             <img
+              srcSet={`
+                 ${require('../assets/nat-8.jpg')} 2000w
+               `}
+              sizes='(max-width:900px) 20vw, (max-width:600px) 30vw,300px'
+              alt='Person on a tour'
               className='story__img'
               src={require('../assets/nat-8.jpg')}
-              alt='Person on a tour'
             />
+
             <figcaption className='story__caption'>Mary Smith</figcaption>
           </figure>
           <div className='story__text'>
